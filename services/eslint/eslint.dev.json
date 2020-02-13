@@ -1,0 +1,8 @@
+{
+  "extends": "./eslint.prod.json",
+  "rules": {
+    "no-console": "warn",
+    "no-debugger": "warn",
+    "no-undef": "off"
+  }
+}

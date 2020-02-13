@@ -1,0 +1,16 @@
+{
+  "extends": "prism",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "env": {
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "jsx-quotes": ["error", "prefer-double"],
+    "import/no-unassigned-import": "off",
+    "no-undefined": "off"
+  },
+  "globals": {
+  }
+}

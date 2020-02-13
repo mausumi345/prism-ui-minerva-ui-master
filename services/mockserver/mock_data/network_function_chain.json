@@ -1,0 +1,64 @@
+{
+  "entity_type": "network_function_chain",
+  "filtered_group_count": 1,
+  "total_entity_count": 1,
+  "filtered_entity_count": 1,
+  "group_results": [
+    {
+      "entity_results": [
+        {
+          "entity_id": "00052d16-7b58-ca38-0000-000000002462",
+          "data": [
+            {
+              "values": [
+                {
+                  "values": [
+                    "Palo Alto FW"
+                  ],
+                  "time": 1519974673221695
+                }
+              ],
+              "name": "name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    {
+                      "uuid": "1234-3333-4444-55555",
+                      "name": "Sample Policy 1"
+                    },
+                    {
+                      "uuid": "1234-3333-4444-6666",
+                      "name": "Sample Policy 2"
+                    }
+                  ],
+                  "time": 1519974673221695
+                }
+              ],
+              "name": "policies"
+            },
+            {
+              "values": [
+                {
+                  "values": [[
+                    {
+                      "type": "INLINE",
+                      "categories": ["NetworkServiceProvider:Foo","NetworkServiceProvider:Bar"]
+                    }
+                  ]],
+                  "time": 1519974673221695
+                }
+              ],
+              "name": "network_function_list"
+            }
+          ]
+        }
+      ],
+      "group_by_column_value": "",
+      "total_entity_count": 1,
+      "group_summaries": {}
+    }
+  ],
+  "total_group_count": 1
+}

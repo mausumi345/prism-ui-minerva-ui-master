@@ -1,0 +1,90 @@
+//
+// Copyright (c) 2019 Nutanix Inc. All rights reserved.
+//
+@import (reference) '~prism-reactjs/src/styles/v2/Colors.less';
+@import (reference) '~prism-reactjs/src/styles/v2/Variables.less';
+@import (reference) '~prism-reactjs/src/styles/v2/ChartCategorialColors.less';
+
+// The app
+.file-server-app {
+  width: 100%;
+  height: 100%;
+
+  .entity-browser {
+    .main-content {
+      background: @light-gray-3;
+
+      >.ntnx-flex-layout {
+        margin-bottom: 40px;
+      }
+
+      .ntnx-pagination {
+        .ntnx-system-select {
+          background: transparent;
+        }
+      }
+      .manage-link {
+        color: deepskyblue ;    
+        .nsg-example-icon-text {
+          color: deepskyblue ;
+        }
+      }
+    }
+  }
+
+  .getting-started {
+    padding: 20px;
+    margin: 40px auto;
+    width: 500px;
+
+    .-inner {
+      background-color: @semi-white;
+      margin-top: 20px;
+      padding: 40px;
+
+      p {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+.category-vms-popup {
+  height: 500px;
+}
+
+// @overrides module fixes...
+// @prism-reactjs
+.ntnx.ntnx-old-table {
+  .ant-table {
+    .ant-table-row {
+      td {
+        vertical-align: middle !important;
+      }
+    }
+  }
+}
+
+.error-text {
+  color: @red-2 !important;
+}
+
+// @universal-uqc
+.uqdc-tables {
+  padding: 0 !important;
+}
+
+.entity-browser-perspective {
+  .ntnx-table {
+    margin-bottom: 40px !important;
+  }
+}
+
+.viz-view-inner {
+  display: flex;
+  justify-content: center;
+
+  svg {
+    margin-left: 10%;
+  }
+}

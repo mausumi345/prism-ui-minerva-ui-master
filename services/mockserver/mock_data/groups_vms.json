@@ -1,0 +1,1498 @@
+{
+  "filtered_entity_count": 8,
+  "group_results": [
+    {
+      "entity_results": [
+        {
+          "entity_id": "027de9f0-5a66-4fd7-88d6-633fc508cb5c",
+          "data": [
+            {
+              "values": [
+                {
+                  "values": [
+                    "ESX VM"
+                  ],
+                  "time": 1500507240268560
+                }
+              ],
+              "name": "vm_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "stark-c4"
+                  ],
+                  "time": 1500507247107768
+                }
+              ],
+              "name": "node_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "kVMware"
+                  ],
+                  "time": 1500507247107768
+                }
+              ],
+              "name": "hypervisor_type"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1073741824"
+                  ],
+                  "time": 1500507240268560
+                }
+              ],
+              "name": "memory_size_bytes"
+            },
+            {
+              "values": [],
+              "name": "ip_addresses"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "on"
+                  ],
+                  "time": 1500507247107768
+                }
+              ],
+              "name": "power_state"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "stark-c4"
+                  ],
+                  "time": 1500507240268560
+                }
+              ],
+              "name": "cluster_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "00054fee-5a03-444d-0000-00000000a31e"
+                  ],
+                  "time": 1500507240268560
+                }
+              ],
+              "name": "cluster"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "0"
+                  ],
+                  "time": 1500507240268560
+                }
+              ],
+              "name": "is_cvm"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "0"
+                  ],
+                  "time": 1500507240268560
+                }
+              ],
+              "name": "is_acropolis_vm"
+            },
+            {
+              "values": [],
+              "name": "ngt.enabled"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1"
+                  ],
+                  "time": 1500507240268560
+                }
+              ],
+              "name": "is_live_migratable"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "0"
+                  ],
+                  "time": 1500507240268560
+                }
+              ],
+              "name": "gpus_in_use"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1a2225df-cbac-47ac-96f2-06c8beea9c22"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "project_reference"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "00000000-0000-0000-0000-000000000000"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "owner_reference"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "default"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "project_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "admin"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "owner_username"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "kComplete"
+                  ],
+                  "time": 1501633317284402
+                }
+              ],
+              "name": "state"
+            }
+          ]
+        },
+        {
+          "entity_id": "ed327847-239b-48cd-bfa0-16cfa9080334",
+          "data": [
+            {
+              "values": [
+                {
+                  "values": [
+                    "catalog_test_vm"
+                  ],
+                  "time": 1496732309168420
+                }
+              ],
+              "name": "vm_name"
+            },
+            {
+              "values": [],
+              "name": "node_name"
+            },
+            {
+              "values": [],
+              "name": "hypervisor_type"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1099511627776"
+                  ],
+                  "time": 1496732309168420
+                }
+              ],
+              "name": "memory_size_bytes"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "99.0.0.14"
+                  ],
+                  "time": 1496732330601853
+                }
+              ],
+              "name": "ip_addresses"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "off"
+                  ],
+                  "time": 1496732309168420
+                }
+              ],
+              "name": "power_state"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "stark-c4"
+                  ],
+                  "time": 1496732309168420
+                }
+              ],
+              "name": "cluster_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "00054fee-5a03-444d-0000-00000000a31e"
+                  ],
+                  "time": 1496732309168420
+                }
+              ],
+              "name": "cluster"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "0"
+                  ],
+                  "time": 1496732309168420
+                }
+              ],
+              "name": "is_cvm"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1"
+                  ],
+                  "time": 1496732309168420
+                }
+              ],
+              "name": "is_acropolis_vm"
+            },
+            {
+              "values": [],
+              "name": "ngt.enabled"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1"
+                  ],
+                  "time": 1496732309168420
+                }
+              ],
+              "name": "is_live_migratable"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "0"
+                  ],
+                  "time": 1496732309168420
+                }
+              ],
+              "name": "gpus_in_use"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1a2225df-cbac-47ac-96f2-06c8beea9c22"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "project_reference"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "00000000-0000-0000-0000-000000000000"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "owner_reference"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "default"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "project_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "admin"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "owner_username"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "kComplete"
+                  ],
+                  "time": 1501633317284402
+                }
+              ],
+              "name": "state"
+            }
+          ]
+        },
+        {
+          "entity_id": "6c39baf5-7649-44e2-aba5-41e32137a83e",
+          "data": [
+            {
+              "values": [
+                {
+                  "values": [
+                    "DJ"
+                  ],
+                  "time": 1500506886628336
+                }
+              ],
+              "name": "vm_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "stark-c4"
+                  ],
+                  "time": 1500506890651662
+                }
+              ],
+              "name": "node_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "kKvm"
+                  ],
+                  "time": 1500506890651662
+                }
+              ],
+              "name": "hypervisor_type"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1073741824"
+                  ],
+                  "time": 1500506886628336
+                }
+              ],
+              "name": "memory_size_bytes"
+            },
+            {
+              "values": [],
+              "name": "ip_addresses"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "on"
+                  ],
+                  "time": 1500506890651662
+                }
+              ],
+              "name": "power_state"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "stark-c4"
+                  ],
+                  "time": 1500506886628336
+                }
+              ],
+              "name": "cluster_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "00054fee-5a03-444d-0000-00000000a31e"
+                  ],
+                  "time": 1500506886628336
+                }
+              ],
+              "name": "cluster"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "0"
+                  ],
+                  "time": 1500506886628336
+                }
+              ],
+              "name": "is_cvm"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1"
+                  ],
+                  "time": 1500506886628336
+                }
+              ],
+              "name": "is_acropolis_vm"
+            },
+            {
+              "values": [],
+              "name": "ngt.enabled"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1"
+                  ],
+                  "time": 1500506886628336
+                }
+              ],
+              "name": "is_live_migratable"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "0"
+                  ],
+                  "time": 1500506886628336
+                }
+              ],
+              "name": "gpus_in_use"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1a2225df-cbac-47ac-96f2-06c8beea9c22"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "project_reference"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "00000000-0000-0000-0000-000000000000"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "owner_reference"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "default"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "project_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "admin"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "owner_username"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "kComplete"
+                  ],
+                  "time": 1501633317284402
+                }
+              ],
+              "name": "state"
+            }
+          ]
+        },
+        {
+          "entity_id": "33ce90cd-9b64-4b51-a3e7-bfd33f6d80d2",
+          "data": [
+            {
+              "values": [
+                {
+                  "values": [
+                    "newDJ"
+                  ],
+                  "time": 1500506948116642
+                }
+              ],
+              "name": "vm_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "stark-c4"
+                  ],
+                  "time": 1500506952677068
+                }
+              ],
+              "name": "node_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "kKvm"
+                  ],
+                  "time": 1500506952677068
+                }
+              ],
+              "name": "hypervisor_type"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1073741824"
+                  ],
+                  "time": 1500506948116642
+                }
+              ],
+              "name": "memory_size_bytes"
+            },
+            {
+              "values": [],
+              "name": "ip_addresses"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "on"
+                  ],
+                  "time": 1500506952677068
+                }
+              ],
+              "name": "power_state"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "stark-c4"
+                  ],
+                  "time": 1500506948116642
+                }
+              ],
+              "name": "cluster_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "00054fee-5a03-444d-0000-00000000a31e"
+                  ],
+                  "time": 1500506948116642
+                }
+              ],
+              "name": "cluster"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "0"
+                  ],
+                  "time": 1500506948116642
+                }
+              ],
+              "name": "is_cvm"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1"
+                  ],
+                  "time": 1500506948116642
+                }
+              ],
+              "name": "is_acropolis_vm"
+            },
+            {
+              "values": [],
+              "name": "ngt.enabled"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1"
+                  ],
+                  "time": 1500506948116642
+                }
+              ],
+              "name": "is_live_migratable"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "0"
+                  ],
+                  "time": 1500506948116642
+                }
+              ],
+              "name": "gpus_in_use"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1a2225df-cbac-47ac-96f2-06c8beea9c22"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "project_reference"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "00000000-0000-0000-0000-000000000000"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "owner_reference"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "default"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "project_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "admin"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "owner_username"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "kComplete"
+                  ],
+                  "time": 1501633317284402
+                }
+              ],
+              "name": "state"
+            }
+          ]
+        },
+        {
+          "entity_id": "b4fb184d-4899-4420-9ab5-139cbafb003f",
+          "data": [
+            {
+              "values": [
+                {
+                  "values": [
+                    "NTNX-stark-c4-CVM"
+                  ],
+                  "time": 1495260147442944
+                }
+              ],
+              "name": "vm_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "stark-c4"
+                  ],
+                  "time": 1495260177434296
+                }
+              ],
+              "name": "node_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "kKvm"
+                  ],
+                  "time": 1495260147442944
+                }
+              ],
+              "name": "hypervisor_type"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "21474836480"
+                  ],
+                  "time": 1495260147442944
+                }
+              ],
+              "name": "memory_size_bytes"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "10.5.25.44"
+                  ],
+                  "time": 1495260147442944
+                }
+              ],
+              "name": "ip_addresses"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "on"
+                  ],
+                  "time": 1495260147442944
+                }
+              ],
+              "name": "power_state"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "stark-c4"
+                  ],
+                  "time": 1495325849203714
+                }
+              ],
+              "name": "cluster_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "00054fee-5a03-444d-0000-00000000a31e"
+                  ],
+                  "time": 1495260147442944
+                }
+              ],
+              "name": "cluster"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1"
+                  ],
+                  "time": 1495260147442944
+                }
+              ],
+              "name": "is_cvm"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "0"
+                  ],
+                  "time": 1495260147442944
+                }
+              ],
+              "name": "is_acropolis_vm"
+            },
+            {
+              "values": [],
+              "name": "ngt.enabled"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "0"
+                  ],
+                  "time": 1495260147442944
+                }
+              ],
+              "name": "is_live_migratable"
+            },
+            {
+              "values": [],
+              "name": "gpus_in_use"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "kComplete"
+                  ],
+                  "time": 1501633317284402
+                }
+              ],
+              "name": "state"
+            }
+          ]
+        },
+        {
+          "entity_id": "521bb34a-7136-4c27-96ac-894fe1f6ac31",
+          "data": [
+            {
+              "values": [
+                {
+                  "values": [
+                    "querying"
+                  ],
+                  "time": 1500926780923461
+                }
+              ],
+              "name": "vm_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "stark-c4"
+                  ],
+                  "time": 1500926785005745
+                }
+              ],
+              "name": "node_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "kKvm"
+                  ],
+                  "time": 1500926785005745
+                }
+              ],
+              "name": "hypervisor_type"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1073741824"
+                  ],
+                  "time": 1500926780923461
+                }
+              ],
+              "name": "memory_size_bytes"
+            },
+            {
+              "values": [],
+              "name": "ip_addresses"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "on"
+                  ],
+                  "time": 1500926785005745
+                }
+              ],
+              "name": "power_state"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "stark-c4"
+                  ],
+                  "time": 1500926780923461
+                }
+              ],
+              "name": "cluster_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "00054fee-5a03-444d-0000-00000000a31e"
+                  ],
+                  "time": 1500926780923461
+                }
+              ],
+              "name": "cluster"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "0"
+                  ],
+                  "time": 1500926780923461
+                }
+              ],
+              "name": "is_cvm"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1"
+                  ],
+                  "time": 1500926780923461
+                }
+              ],
+              "name": "is_acropolis_vm"
+            },
+            {
+              "values": [],
+              "name": "ngt.enabled"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1"
+                  ],
+                  "time": 1500926780923461
+                }
+              ],
+              "name": "is_live_migratable"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "0"
+                  ],
+                  "time": 1500926780923461
+                }
+              ],
+              "name": "gpus_in_use"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1a2225df-cbac-47ac-96f2-06c8beea9c22"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "project_reference"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "00000000-0000-0000-0000-000000000000"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "owner_reference"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "default"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "project_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "admin"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "owner_username"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "kComplete"
+                  ],
+                  "time": 1501633317284402
+                }
+              ],
+              "name": "state"
+            }
+          ]
+        },
+        {
+          "entity_id": "00210baa-9a42-4812-9ea1-4539e9f0cccb",
+          "data": [
+            {
+              "values": [
+                {
+                  "values": [
+                    "shyam_kirak_template_nonic"
+                  ],
+                  "time": 1500505333241234
+                }
+              ],
+              "name": "vm_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "stark-c4"
+                  ],
+                  "time": 1500505337535036
+                }
+              ],
+              "name": "node_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "kKvm"
+                  ],
+                  "time": 1500505337535036
+                }
+              ],
+              "name": "hypervisor_type"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1073741824"
+                  ],
+                  "time": 1500505333241234
+                }
+              ],
+              "name": "memory_size_bytes"
+            },
+            {
+              "values": [],
+              "name": "ip_addresses"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "on"
+                  ],
+                  "time": 1500505337535036
+                }
+              ],
+              "name": "power_state"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "stark-c4"
+                  ],
+                  "time": 1500505333241234
+                }
+              ],
+              "name": "cluster_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "00054fee-5a03-444d-0000-00000000a31e"
+                  ],
+                  "time": 1500505333241234
+                }
+              ],
+              "name": "cluster"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "0"
+                  ],
+                  "time": 1500505333241234
+                }
+              ],
+              "name": "is_cvm"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1"
+                  ],
+                  "time": 1500505333241234
+                }
+              ],
+              "name": "is_acropolis_vm"
+            },
+            {
+              "values": [],
+              "name": "ngt.enabled"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1"
+                  ],
+                  "time": 1500505333241234
+                }
+              ],
+              "name": "is_live_migratable"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "0"
+                  ],
+                  "time": 1500505333241234
+                }
+              ],
+              "name": "gpus_in_use"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1a2225df-cbac-47ac-96f2-06c8beea9c22"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "project_reference"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "00000000-0000-0000-0000-000000000000"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "owner_reference"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "default"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "project_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "admin"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "owner_username"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "kComplete"
+                  ],
+                  "time": 1501633317284402
+                }
+              ],
+              "name": "state"
+            }
+          ]
+        },
+        {
+          "entity_id": "058606a9-6feb-45bd-a5ca-f2afe112709a",
+          "data": [
+            {
+              "values": [
+                {
+                  "values": [
+                    "shyam_test3_nonic"
+                  ],
+                  "time": 1500505032783889
+                }
+              ],
+              "name": "vm_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "stark-c4"
+                  ],
+                  "time": 1500505035416481
+                }
+              ],
+              "name": "node_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "kKvm"
+                  ],
+                  "time": 1500505035416481
+                }
+              ],
+              "name": "hypervisor_type"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1073741824"
+                  ],
+                  "time": 1500505032783889
+                }
+              ],
+              "name": "memory_size_bytes"
+            },
+            {
+              "values": [],
+              "name": "ip_addresses"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "on"
+                  ],
+                  "time": 1500505035416481
+                }
+              ],
+              "name": "power_state"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "stark-c4"
+                  ],
+                  "time": 1500505032783889
+                }
+              ],
+              "name": "cluster_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "00054fee-5a03-444d-0000-00000000a31e"
+                  ],
+                  "time": 1500505032783889
+                }
+              ],
+              "name": "cluster"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "0"
+                  ],
+                  "time": 1500505032783889
+                }
+              ],
+              "name": "is_cvm"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1"
+                  ],
+                  "time": 1500505032783889
+                }
+              ],
+              "name": "is_acropolis_vm"
+            },
+            {
+              "values": [],
+              "name": "ngt.enabled"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1"
+                  ],
+                  "time": 1500505032783889
+                }
+              ],
+              "name": "is_live_migratable"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "0"
+                  ],
+                  "time": 1500505032783889
+                }
+              ],
+              "name": "gpus_in_use"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "1a2225df-cbac-47ac-96f2-06c8beea9c22"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "project_reference"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "94a3f281-d73d-590b-8872-aea5e29d381e"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "owner_reference"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "default"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "project_name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "locust_1@qa.nutanix.com"
+                  ],
+                  "time": 1501633317276848
+                }
+              ],
+              "name": "owner_username"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "INTERNAL_ERROR"
+                  ],
+                  "time": 1501633317284402
+                }
+              ],
+              "name": "reason"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "kError"
+                  ],
+                  "time": 1501633317284402
+                }
+              ],
+              "name": "state"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "error_code: 17\nerror_detail: \"Cannot complete request in state kInvalidState: Cannot complete request in state kOn\""
+                  ],
+                  "time": 1501633317284402
+                }
+              ],
+              "name": "message"
+            }
+          ]
+        }
+      ],
+      "group_by_column_value": "",
+      "total_entity_count": 8,
+      "group_summaries": {}
+    }
+  ],
+  "total_group_count": 1,
+  "total_entity_count": 8,
+  "entity_type": "vm"
+}

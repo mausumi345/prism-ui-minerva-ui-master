@@ -1,0 +1,39 @@
+{
+  "results": [
+    {
+      "filtered_entity_count": 2,
+      "kind": "network_security_rule",
+      "kind_reference_list": [
+        {
+          "type": "CATEGORIES_MATCH_ANY",
+          "uuid": "9fb18759-0109-4c86-897a-8e6f71f2e98e",
+          "categories": {
+            "NetworkServiceProvider": [
+              "PaloAlto"
+            ]
+          },
+          "name": "SecPolicyFoo"
+        },
+        {
+          "type": "CATEGORIES_MATCH_ANY",
+          "uuid": "05ff06de-21e3-407e-9a9e-e285ca163ac4",
+          "categories": {
+            "NetworkServiceProvider": [
+              "PaloAlto",
+              "CheckPoint"
+            ]
+          },
+          "name": "SecPolicyBar"
+        }
+      ],
+      "total_entity_count": 2
+    }
+  ],
+  "api_version": "3.1",
+  "metadata": {
+    "total_matches": 2,
+    "usage_type": "USED_IN",
+    "group_member_offset": 0,
+    "group_member_count": 30
+  }
+}

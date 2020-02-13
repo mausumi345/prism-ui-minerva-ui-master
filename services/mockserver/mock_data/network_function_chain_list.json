@@ -1,0 +1,274 @@
+{
+  "api_version": "3.1",
+  "metadata": {
+    "kind": "network_function_chain",
+    "total_matches": 4,
+    "sort_attribute": "name",
+    "length": 4,
+    "sort_order": "ASCENDING",
+    "offset": 0
+  },
+  "entities": [
+    {
+      "status": {
+        "state": "COMPLETE",
+        "name": "Chain1",
+        "description": "Chain1 Description",
+        "resources": {
+          "network_function_list": [
+            {
+              "network_function_type": "INLINE",
+              "category_filter": {
+                "type": "CATEGORIES_MATCH_ALL",
+                "params": {
+                  "NetworkServiceProvider": [
+                    "PaloAlto"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "execution_context": {
+          "task_uuids": [
+            "afc9991a-0e9f-4160-a15b-235bf3f2c5d6"
+          ]
+        }
+      },
+      "spec": {
+        "cluster_reference": {
+          "kind": "cluster",
+          "uuid": "00058d35-4ebb-e0e7-0000-00000001bd6a"
+        },
+        "resources": {
+          "network_function_list": [
+            {
+              "network_function_type": "INLINE",
+              "category_filter": {
+                "type": "CATEGORIES_MATCH_ALL",
+                "params": {
+                  "NetworkServiceProvider": [
+                    "NutestV3SystemVmBase1"
+                  ]
+                }
+              }
+            },
+            {
+              "network_function_type": "TAP",
+              "category_filter": {
+                "type": "CATEGORIES_MATCH_ALL",
+                "params": {
+                  "NetworkServiceProvider": [
+                    "NutestV3SystemVmBase1"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "name": "Chain1",
+        "description": "Chain1 Description"
+      },
+      "metadata": {
+        "last_update_time": "2019-07-10T00:20:20Z",
+        "kind": "network_function_chain",
+        "uuid": "3def770a-d4fd-49a0-bfd1-a118c1a57d00",
+        "spec_version": 0,
+        "creation_time": "2019-07-10T00:20:19Z",
+        "owner_reference": {
+          "kind": "user",
+          "uuid": "00000000-0000-0000-0000-000000000000",
+          "name": "admin"
+        },
+        "categories": {}
+      }
+    },
+    {
+      "status": {
+        "state": "COMPLETE",
+        "name": "Chain2",
+        "description": "Chain2 Description",
+        "resources": {
+          "network_function_list": [
+            {
+              "network_function_type": "INLINE",
+              "category_filter": {
+                "type": "CATEGORIES_MATCH_ALL",
+                "params": {
+                  "NetworkServiceProvider": [
+                    "CheckPoint"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "execution_context": {
+          "task_uuids": [
+            "4736617e-f8fd-49b9-a16e-947eeb9a2262"
+          ]
+        }
+      },
+      "spec": {
+        "cluster_reference": {
+          "kind": "cluster",
+          "uuid": "00058d35-4ebb-e0e7-0000-00000001bd6a"
+        },
+        "resources": {
+          "network_function_list": [
+            {
+              "network_function_type": "INLINE",
+              "category_filter": {
+                "type": "CATEGORIES_MATCH_ALL",
+                "params": {
+                  "NetworkServiceProvider": [
+                    "CheckPoint"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "name": "Chain2",
+        "description": "Chain2 Description"
+      },
+      "metadata": {
+        "last_update_time": "2019-07-10T00:20:20Z",
+        "kind": "network_function_chain",
+        "uuid": "9bef925b-fa7f-4584-81dc-5e97eab57f45",
+        "spec_version": 0,
+        "creation_time": "2019-07-10T00:20:19Z",
+        "owner_reference": {
+          "kind": "user",
+          "uuid": "00000000-0000-0000-0000-000000000000",
+          "name": "admin"
+        },
+        "categories": {}
+      }
+    },
+    {
+      "status": {
+        "state": "COMPLETE",
+        "name": "Chain3",
+        "description": "Chain3 Description",
+        "resources": {
+          "network_function_list": []
+        },
+        "execution_context": {
+          "task_uuids": [
+            "9dc5423b-6f00-4826-895c-e9f0c56d9c0b"
+          ]
+        }
+      },
+      "spec": {
+        "cluster_reference": {
+          "kind": "cluster",
+          "uuid": "00058d35-4ebb-e0e7-0000-00000001bd6a"
+        },
+        "resources": {
+          "network_function_list": []
+        },
+        "name": "Chain3",
+        "description": "Chain3 Description"
+      },
+      "metadata": {
+        "last_update_time": "2019-07-10T00:20:20Z",
+        "kind": "network_function_chain",
+        "uuid": "84df329a-ecb2-4bf9-a623-649f0660dde0",
+        "spec_version": 0,
+        "creation_time": "2019-07-10T00:20:20Z",
+        "owner_reference": {
+          "kind": "user",
+          "uuid": "00000000-0000-0000-0000-000000000000",
+          "name": "admin"
+        },
+        "categories": {}
+      }
+    },
+    {
+      "status": {
+        "state": "COMPLETE",
+        "name": "Chain4",
+        "description": "Chain4 Description",
+        "resources": {
+          "network_function_list": [
+            {
+              "network_function_type": "INLINE",
+              "category_filter": {
+                "type": "CATEGORIES_MATCH_ALL",
+                "params": {
+                  "NetworkServiceProvider": [
+                    "NutestV3SystemVmBase1"
+                  ]
+                }
+              }
+            },
+            {
+              "network_function_type": "TAP",
+              "category_filter": {
+                "type": "CATEGORIES_MATCH_ALL",
+                "params": {
+                  "NetworkServiceProvider": [
+                    "NutestV3SystemVmBase1"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "execution_context": {
+          "task_uuids": [
+            "d5bea398-13b8-43a9-8de0-4428e6e8ef32"
+          ]
+        }
+      },
+      "spec": {
+        "cluster_reference": {
+          "kind": "cluster",
+          "uuid": "00058d35-4ebb-e0e7-0000-00000001bd6a"
+        },
+        "resources": {
+          "network_function_list": [
+            {
+              "network_function_type": "INLINE",
+              "category_filter": {
+                "type": "CATEGORIES_MATCH_ALL",
+                "params": {
+                  "NetworkServiceProvider": [
+                    "NutestV3SystemVmBase1"
+                  ]
+                }
+              }
+            },
+            {
+              "network_function_type": "TAP",
+              "category_filter": {
+                "type": "CATEGORIES_MATCH_ALL",
+                "params": {
+                  "NetworkServiceProvider": [
+                    "NutestV3SystemVmBase1"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "name": "Chain4",
+        "description": "Chain4 Description"
+      },
+      "metadata": {
+        "last_update_time": "2019-07-10T00:20:21Z",
+        "kind": "network_function_chain",
+        "uuid": "7ba04a2e-1478-4b68-a89b-092e9e4065b8",
+        "spec_version": 0,
+        "creation_time": "2019-07-10T00:20:20Z",
+        "owner_reference": {
+          "kind": "user",
+          "uuid": "00000000-0000-0000-0000-000000000000",
+          "name": "admin"
+        },
+        "categories": {}
+      }
+    }
+  ]
+}

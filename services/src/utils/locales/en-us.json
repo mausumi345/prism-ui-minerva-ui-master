@@ -1,0 +1,84 @@
+{
+  "Common": {
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "save": "Save",
+    "create": "Create",
+    "plsReviewAndResubmit": "Please review errors and resubmit.",
+    "schema": {
+      "file_server": {
+        "name": "Name",
+        "versions": "Versions",
+        "cluster": "Cluster",
+        "file_server_vms": "File Server Vms",
+        "actions": "Actions",
+        "type": {
+          "tap": "Tap",
+          "inline": "Inline"
+        },
+        "networkServiceProviders": "Network Service Providers",
+        "policies": "Policies",
+        "tap": "Tap",
+        "inline": "Inline"
+      },
+      "alert": {
+        "description": "Description",
+        "sourceEntity": "Source Entity",
+        "impactType": "Impact Type",
+        "severity": "Severity",
+        "resolved": "Resolved",
+        "acknowledged": "Acknowledged",
+        "createdTime": "Create Time",
+        "cluster": "Cluster"
+      },
+      "event": {
+        "description": "Description",
+        "sourceEntity": "Source Entity",
+        "classification": "Event Type",
+        "cluster": "Cluster",
+        "createdTime": "Create Time"
+      }
+    }
+  },
+
+  "FileServers": {
+    "files": "Files",
+    "typeName": "Type name to filter",
+    "fileServers": "File Servers",
+    "noFileServer": "No File Servers",
+    "oneFileServer": "One File Server",
+    "numOfFileServers": "{num} File Servers",
+    "summary": "Summary",
+    "alerts": "Alerts",
+    "events": "Events"
+  },
+
+  "EBComponentFactory": {
+    "manage": "Manage",
+    "yes": "Yes"
+  },
+
+  "FileServersDetails": {
+    "file_server_details": "File Server Details",
+    "fs_name": "File Server Name",
+    "verion": "Version",
+    "fs_vms": "File Server VMs",
+    "external_ip_addresses": "External IP Addresses"
+  },
+
+  "FileServersManageVersion": {
+    "nutanix_files": "Nutanix Files",
+    "nutanix_files_desc": "A native file-storage solution for unstructured data. Files provides a highly available and massively scalable data repository for a wide rand of deployments and applications.",
+    "enable_files": "Enable Files",
+    "enable_files_desc": "Once enabled, File servers across all of your Nutanix Clusters can be managed from Prism Central(PC). File Server Manager(FSM) is required to manage File Servers from PC",
+    "file_server_manager_info": "PC is not running the latest verion of the File Server Manager. Use {lcm} to upgrade FSM to the latest version.",
+    "file_server_manager_version": "File Server Manager Version",
+    "current_version": "Current Version",
+    "latest_version": "Latest Version",
+    "lcm": "Life Cycle Management(LCM)"
+  },
+
+  "EntityConfigs": {
+    "noFiles": "Minerva files have not been defined. Start by defining one."
+  }
+}

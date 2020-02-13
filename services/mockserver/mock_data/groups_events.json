@@ -1,0 +1,295 @@
+{
+  "entity_type": "event",
+  "filtered_group_count": 1,
+  "total_entity_count": 5,
+  "filtered_entity_count": 5,
+  "group_results": [
+    {
+      "entity_results": [
+        {
+          "entity_id": "f03ddba5-d21a-4a24-aac4-eb226ce76234",
+          "data": [
+            {
+              "values": [
+                {
+                  "values": [
+                    "dev-fs10"
+                  ],
+                  "time": 1541404046798363
+                }
+              ],
+              "name": "name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "dev-clu01"
+                  ],
+                  "time": 1541404046798363
+                }
+              ],
+              "name": "cluster"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "3"
+                  ],
+                  "time": 1541404046798363
+                }
+              ],
+              "name": "file_server_vms"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "3.1"
+                  ],
+                  "time": 1542058475936060
+                }
+              ],
+              "name": "versions"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "{\"vm\": 3}"
+                  ],
+                  "time": 1542058475936060
+                }
+              ],
+              "name": "entity_counts"
+            }
+          ]
+        },
+        {
+          "entity_id": "42f9cb86-eff0-4b51-95dd-92c7d555a246",
+          "data": [
+            {
+              "values": [{"time": 1541404046798363, "values": ["dev-fs11"]}],
+              "name": "name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "DEMO-AHV"
+                  ],
+                  "time": 1541404046798363
+                }
+              ],
+              "name": "cluster"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "3"
+                  ],
+                  "time": 1541404047103811
+                }
+              ],
+              "name": "file_server_vms"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "3.2"
+                  ],
+                  "time": 1542058475936060
+                }
+              ],
+              "name": "versions"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "{}"
+                  ],
+                  "time": 1542058475936060
+                }
+              ],
+              "name": "entity_counts"
+            }
+          ]
+        },
+        {
+          "entity_id": "9e3f19b5-946d-4722-a63e-200e575d89a8",
+          "data": [
+            {
+              "values": [{"time": 1541404046798363, "values": ["dev-fs20"]}],
+              "name": "name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "dev-clu01"
+                  ],
+                  "time": 1541404046798363
+                }
+              ],
+              "name": "cluster"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "5"
+                  ],
+                  "time": 1541404046524593
+                }
+              ],
+              "name": "file_server_vms"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "3.2"
+                  ],
+                  "time": 1542058475936060
+                }
+              ],
+              "name": "versions"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "{}"
+                  ],
+                  "time": 1542058475936060
+                }
+              ],
+              "name": "entity_counts"
+            }
+          ]
+        },
+        {
+          "entity_id": "42f9cb86-eff0-4b51-95dd-92c7d777a246",
+          "data": [
+            {
+              "values": [{"time": 1541404046798363, "values": ["demo-files"]}],
+              "name": "name"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "DEMO-AHV"
+                  ],
+                  "time": 1541404046798363
+                }
+              ],
+              "name": "cluster"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "3"
+                  ],
+                  "time": 1541404047103811
+                }
+              ],
+              "name": "file_server_vms"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "3.2"
+                  ],
+                  "time": 1542058475936060
+                }
+              ],
+              "name": "versions"
+            },
+            {
+              "values": [
+                {
+                  "values": [
+                    "{}"
+                  ],
+                  "time": 1542058475936060
+                }
+              ],
+              "name": "entity_counts"
+            }
+          ]
+        }
+      ],
+      "group_by_column_value": "64e59c25-8c86-4c9a-9982-13c6fef9f894",
+      "total_entity_count": 10,
+      "group_summaries": {
+        "sum:description": {
+          "values": [
+            {
+              "values": [
+                "Network Service Provider"
+              ],
+              "time": 1541404046457003
+            }
+          ],
+          "name": "description"
+        },
+        "sum:total_policy_counts": {
+          "values": [
+            {
+              "values": [
+                "{}"
+              ],
+              "time": 1542058475936060
+            }
+          ],
+          "name": "total_policy_counts"
+        },
+        "sum:total_entity_counts": {
+          "values": [
+            {
+              "values": [
+                "{}"
+              ],
+              "time": 1542058475936060
+            }
+          ],
+          "name": "total_entity_counts"
+        },
+        "sum:name": {
+          "values": [
+            {
+              "values": [
+                "NetworkServiceProvider"
+              ],
+              "time": 1541404046457003
+            }
+          ],
+          "name": "name"
+        },
+        "sum:immutable": {
+          "values": [
+            {
+              "values": [
+                "true"
+              ],
+              "time": 1541404046457003
+            }
+          ],
+          "name": "immutable"
+        },
+        "sum:cardinality": {
+          "values": [],
+          "name": "cardinality"
+        }
+      }
+    }
+  ],
+  "total_group_count": 8
+}

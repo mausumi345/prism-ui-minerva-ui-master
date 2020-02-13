@@ -1,0 +1,22 @@
+{
+  "name": "MinervaFilesDemo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "autoprefixer": "^6.5.1",
+    "cookie-parser": "^1.4.3",
+    "express": "3.2.4",
+    "express-winston": "^2.3.0",
+    "http-proxy": "^1.11.1",
+    "less-middleware": "2.2.0",
+    "memorystream": "0.2.0",
+    "postcss-middleware": "^1.1.2",
+    "request": "2.83",
+    "md5": "*",
+    "underscore": "*",
+    "winston": "^2.3.1"
+  }
+}
