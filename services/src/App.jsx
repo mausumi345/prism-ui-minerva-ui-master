@@ -7,7 +7,7 @@ import React from 'react';
 
 // App Level CSS
 import './App.less';
-import ShareLevelPermissions from './components/ShareLevelPermissions';
+import FileServerSettings from './components/FileServerSettings';
 
 class App extends React.Component {
 
@@ -15,7 +15,7 @@ class App extends React.Component {
     // Finally all is good, show the main app
     return (
       <div className="file-server-app">
-        <ShareLevelPermissions />
+        <FileServerSettings />
       </div>
     );
   }
